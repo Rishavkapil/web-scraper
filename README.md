@@ -1,6 +1,6 @@
-# 🕸️ Web Scraper + Flask API
+# Web Scraper + Flask API
 
-## 📌 Objective
+## Objective
 
 This project demonstrates a containerized solution that combines the power of:
 - **Node.js + Puppeteer** to scrape content from a dynamic website.
@@ -9,17 +9,17 @@ This project demonstrates a containerized solution that combines the power of:
 
 ---
 
-## 🧩 Features
+## Features
 
-✅ Scrape a user-defined URL  
-✅ Extract page `<title>` and first `<h1>`  
-✅ Store scraped data in `scraped_data.json`  
-✅ Serve it using Flask at `http://localhost:5000`  
-✅ Clean, multi-stage Docker build
+ Scrape a user-defined URL  
+ Extract page `<title>` and first `<h1>`  
+ Store scraped data in `scraped_data.json`  
+ Serve it using Flask at `http://localhost:5000`  
+ Clean, multi-stage Docker build
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - Node.js (v18-slim)
 - Puppeteer
@@ -30,7 +30,7 @@ This project demonstrates a containerized solution that combines the power of:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 ### Build the Docker image
 
