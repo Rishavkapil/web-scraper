@@ -1,4 +1,4 @@
-# Stage 1: Node.js Scraper
+# Stage 1 
 FROM node:18-slim AS scraper
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true

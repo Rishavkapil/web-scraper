@@ -20,7 +20,9 @@ if (!url) {
   const data = await page.evaluate(() => {
     return {
       title: document.title,
-      firstHeading: document.querySelector("h1")?.innerText || "No <h1> found"
+      firstHeading: document.querySelector("h1")?.innerText || "No <h1> found",
+      headings: Array.from(document.querySelectorAll("h1, h2, h3, h4, h5, h6")).map(el => el.innerText)
+
     };
   });
 

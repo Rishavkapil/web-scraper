@@ -67,3 +67,4 @@ If no ``` <h1> ``` exist on the page , you'll see something like :
   "firstHeading": "No ``` <h1> ``` found"
 }
 
+(NOTE : This will only scrape title and all headings )
